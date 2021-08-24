@@ -1,0 +1,60 @@
+.purchase{
+    margin-bottom: 80px;
+}
+
+.purchase__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3F4F6;
+}
+
+.purchase__info{
+    margin-left: 97px;
+}
+
+.purchase__text{
+    color: #2C1500;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.purchase__button-info{
+    background-color: #156963;
+    color: #ffff;
+}
+
+.purchase__button-info:hover{
+    background-color: #ffff;
+    color: #156963;
+    border: 1px solid #156963;
+}
+
+@media (max-width: 420px){
+    .purchase__img{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .purchase__box{
+        flex-direction: column;
+        background: #ffff
+    }
+
+    .purchase__info{
+        margin: 0 0 20px 0;
+    }
+}
+
+@media (max-width: 800px){
+    .purchase__box{
+        flex-direction: column;
+        background: #ffff
+    }
+
+    .purchase__info{
+        margin: 0 0 20px 0;
+    }
+}
