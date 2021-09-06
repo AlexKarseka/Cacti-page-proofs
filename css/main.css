@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.32;
-    background: url(/img/home-page.png) no-repeat;
+    background: url(../img/home-page.png) no-repeat;
 }
 
 .wrapper {
@@ -50,9 +50,3 @@ a{
     }
 
 }
-
-/* @media(max-width: 600px) {
-    body {
-        background: unset;
-    }
-} */
